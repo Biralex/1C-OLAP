@@ -1,0 +1,209 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="803c7204-2ea4-45c8-b4a4-8c5ec929211c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ОстаткиИДоступностьТоваровПоСкладам</ID>
+  <Name>ОстаткиИДоступностьТоваровПоСкладам</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15564" scrolltop="-5728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27146" y="16457" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ОстаткиИДоступностьТоваровПоСкладамИтоговый" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6429" height="6111" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00001d190000df170000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-15564</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5728</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3a3b598b-18fd-4dc1-bd8f-c88ad5255ba1">
+      <ID>Остатки И Доступность Товаров По Складам Итоговый</ID>
+      <Name>Остатки И Доступность Товаров По Складам Итоговый</Name>
+      <DimensionID>Остатки И Доступность Товаров По Складам Итоговый</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3b18ee90-9174-4734-80cc-8df3b1a88cc0">
+          <AttributeID>Композитный Ключ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9184bd9f-7c14-4dfc-9a05-929895c7ed13">
+          <AttributeID>Период</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="12b54675-fd16-4fdd-ae16-8a21c1c27952">
+          <AttributeID>Наименование</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="803a33cc-450b-4bc7-a998-581077d3d2f8">
+          <AttributeID>Артикул</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96eeb830-6f19-433a-a24f-5f01e08cfc42">
+          <AttributeID>Характеристика</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="204b2334-1e80-4e10-9011-32140081d9ae">
+          <AttributeID>Производитель</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac0d1eb4-9d1d-4e9e-972b-399ecc7e4713">
+          <AttributeID>Склад</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b5599cf-a84e-4ce9-b3e2-1226357e2876">
+          <AttributeID>Новинка</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="957543dc-a8b3-449d-82f0-78fcf3b64c05">
+          <AttributeID>Коллекция</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="029ac461-a2ad-415a-9f26-a2086f5240dd">
+          <AttributeID>Снято С Производства</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b57257da-443d-47c8-bf0d-d01c6dc5bf50">
+      <ID>Время</ID>
+      <Name>Время</Name>
+      <DimensionID>Время</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a666fa1c-47ca-473a-a647-265e16fa6630">
+          <AttributeID>Дата</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="5b2390a5-ccd9-4494-996a-9dfffc4bdf88">
+      <ID>Остатки И Доступность Товаров По Складам Итоговый</ID>
+      <Name>Остатки И Доступность Товаров По Складам Итоговый</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="607888c8-e303-4d82-9e06-0ba75b712526">
+          <ID>В Наличии</ID>
+          <Name>В Наличии</Name>
+          <Source dwd:design-time-name="0dd22201-8bf5-42be-8b4d-714daf97bed9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6893ce00-1fc9-47b1-89c0-a19db0b5a0f8">
+              <TableID>dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый</TableID>
+              <ColumnID>ВНаличии</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="504fc3eb-a587-4b39-b019-1962efeeb3bb">
+          <ID>В Резерве</ID>
+          <Name>В Резерве</Name>
+          <Source dwd:design-time-name="c769f6f6-6aad-468f-b058-38805ea079ce">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e65bd864-733e-4e1b-8384-be8a13b2dbc6">
+              <TableID>dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый</TableID>
+              <ColumnID>ВРезерве</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8f5cc78f-28cc-4791-85a8-c1ad18a100d8">
+          <ID>К Отгрузке</ID>
+          <Name>К Отгрузке</Name>
+          <Source dwd:design-time-name="a808d5e1-0625-49ce-b69d-1a3952f8f788">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5c319aad-7462-471e-875a-5c8a505556af">
+              <TableID>dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый</TableID>
+              <ColumnID>КОтгрузке</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="003cfdfc-47c1-4893-b68a-215eb7fe572e">
+          <CubeDimensionID>Остатки И Доступность Товаров По Складам Итоговый</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eda08787-145c-49a7-b977-5c8a6b70dde0">
+              <AttributeID>Композитный Ключ</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="64e4f69f-4ffd-405f-9d7a-5e55c5788376">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09840f63-c4a3-4c20-b0b6-1d2bb2a73b05">
+                    <TableID>dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый</TableID>
+                    <ColumnID>КомпозитныйКлюч</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b25cc2ff-84b3-40cc-ac4c-8a41512fdca4">
+          <CubeDimensionID>Время</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4a2a9362-7725-47a7-b569-6561e881ef2a">
+              <AttributeID>Дата</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fc841e71-752f-4409-a7ed-82354f9af070">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d58d48f8-1ce2-4520-a28b-50d944e7c5e0">
+                    <TableID>dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый</TableID>
+                    <ColumnID>Период</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="1c033322-dcc3-4ec3-8a8b-945a132d1432">
+    <DataSourceViewID>ОстаткиИДоступностьТоваровПоСкладам</DataSourceViewID>
+  </Source>
+</Cube>

@@ -1,0 +1,135 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5471fce6-469c-4e23-977c-65eb52cb34ce" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ОстаткиИДоступностьТоваровПоСкладам</ID>
+  <Name>ОстаткиИДоступностьТоваровПоСкладам</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15829" scrolltop="-9009" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31485" y="17780" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ОстаткиИДоступностьТоваровПоСкладамИтоговый" left="-1111" top="-5556" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3757" height="8572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000ad0e00007c210000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-15829</DiagramViewPortLeft>
+            <DiagramViewPortTop>-9009</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Trade OLAP</DataSourceID>
+  <Schema>
+    <xs:schema id="ОстаткиИДоступностьТоваровПоСкладам" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="ОстаткиИДоступностьТоваровПоСкладам" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="b768fce8-8eac-4343-a4d9-028ae2c2c347">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый" msprop:design-time-name="321d14d6-996a-4d6a-bd17-1bbaa324d482" msprop:FriendlyName="ОстаткиИДоступностьТоваровПоСкладамИтоговый" msprop:DbSchemaName="dbo" msprop:DbTableName="ОстаткиИДоступностьТоваровПоСкладамИтоговый" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Период" msdata:ReadOnly="true" msprop:design-time-name="ac9104a8-a932-4a69-af3d-ba0dc2ee47fe" msprop:DbColumnName="Период" msprop:FriendlyName="Период" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Наименование" msprop:design-time-name="88342971-6806-4411-b43e-afcd91eba2fb" msprop:DbColumnName="Наименование" msprop:FriendlyName="Наименование" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Артикул" msdata:ReadOnly="true" msprop:design-time-name="4e895f3b-a5b8-4f77-9d73-341683a6dd6e" msprop:DbColumnName="Артикул" msprop:FriendlyName="Артикул" type="xs:string" minOccurs="0" />
+                  <xs:element name="Характеристика" msprop:design-time-name="ee591993-9786-4e6a-8872-14db6e860900" msprop:DbColumnName="Характеристика" msprop:FriendlyName="Характеристика" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Производитель" msprop:design-time-name="e6619dd6-1996-461f-b599-17cc9a7d624f" msprop:DbColumnName="Производитель" msprop:FriendlyName="Производитель" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Склад" msprop:design-time-name="a5d293c3-c354-42a1-aecb-79f9817631e5" msprop:DbColumnName="Склад" msprop:FriendlyName="Склад" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ВНаличии" msdata:ReadOnly="true" msprop:design-time-name="b60ed556-fe20-4ad9-8f38-4e39917cfd9e" msprop:DbColumnName="ВНаличии" msprop:FriendlyName="ВНаличии" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ВРезерве" msdata:ReadOnly="true" msprop:design-time-name="86ad3f78-b9eb-4a3e-85db-a3772ce726d7" msprop:DbColumnName="ВРезерве" msprop:FriendlyName="ВРезерве" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="КОтгрузке" msdata:ReadOnly="true" msprop:design-time-name="8275cd84-7d5a-4424-b192-2d44e7f8e82c" msprop:DbColumnName="КОтгрузке" msprop:FriendlyName="КОтгрузке" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Новинка" msdata:ReadOnly="true" msprop:design-time-name="569cd120-ca6e-4ced-b3ed-2a4760bf2ab0" msprop:DbColumnName="Новинка" msprop:FriendlyName="Новинка" type="xs:boolean" />
+                  <xs:element name="Коллекция" msdata:ReadOnly="true" msprop:design-time-name="b496a4ef-b0ec-4cd2-b317-394ba8f323c4" msprop:DbColumnName="Коллекция" msprop:FriendlyName="Коллекция" type="xs:string" />
+                  <xs:element name="КомпозитныйКлюч" msdata:ReadOnly="true" msprop:design-time-name="9e8f6073-8056-47dc-84e6-a56c9b5fcafc" msprop:DbColumnName="КомпозитныйКлюч" msprop:FriendlyName="КомпозитныйКлюч" type="xs:string" />
+                  <xs:element name="СнятоСПроизводства" msprop:design-time-name="23bb5e6c-88c1-47f9-a4ce-aa69f0d918c9" msprop:DbColumnName="СнятоСПроизводства" msprop:FriendlyName="Снято с производства" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_ОстаткиИДоступностьТоваровПоСкладамИтоговый" />
+          <xs:field xpath="КомпозитныйКлюч" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <ОстаткиИДоступностьТоваровПоСкладам xmlns="" />
+  </Schema>
+</DataSourceView>
