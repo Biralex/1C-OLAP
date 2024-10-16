@@ -1,0 +1,260 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="04e01d31-be6d-4eb1-9869-ab7fac2f823c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ПродажиЗаПериодИОплаты</ID>
+  <Name>ПродажиЗаПериодИОплаты</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10378" scrolltop="-5728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27146" y="16457" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ПродажиЗаПериодОплата" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6350" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ce18000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ПродажиЗаПериодОплата" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-10378</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5728</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="aad8c33a-38ee-4415-98d4-0b130d32a264">
+      <ID>Продажи За Период Оплата</ID>
+      <Name>Продажи За Период Оплата</Name>
+      <DimensionID>Продажи За Период Оплата</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="eaf84d5b-e1b9-4c3b-a3f9-c693c96ef021">
+          <AttributeID>Композитный Ключ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="73ce7abb-0092-4c89-b28e-14288888e6fd">
+          <AttributeID>Дата</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c1229e90-53bd-4a15-b505-852db55dade0">
+          <AttributeID>Заказ Клиента Номер</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ceb38ff-c240-47fb-805d-3dda3a935630">
+          <AttributeID>Контрагент</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="251f3b48-555f-4d15-b474-e13355f3b824">
+          <AttributeID>ИНН</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bbfcf390-40ff-4987-b7c2-970d9de38707">
+          <AttributeID>Номенклатура</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22c2a886-64ab-4d94-8421-42ff2b6798cc">
+          <AttributeID>Артикул</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e482b43-4ea6-4d08-ad53-9281bdcc0acc">
+          <AttributeID>Содержание</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="afc8e75d-4fa1-470d-9023-972b24b5ce11">
+          <AttributeID>Дата Заказа</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6265778d-b8a4-443b-8f46-6e1832451d98">
+          <AttributeID>Производитель</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c36f16ee-87b5-4cf8-b995-e1280189533c">
+      <ID>Время</ID>
+      <Name>Время</Name>
+      <DimensionID>Время</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0144f3fe-4dd1-41f5-93d4-aed783a3afe6">
+          <AttributeID>Дата</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="28476a44-a628-4720-8c80-a42d8a49b918">
+          <AttributeID>TenDays</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="56546df4-1f56-4a16-9245-04cfb2c8d874">
+          <AttributeID>Years</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87208309-bbdd-48da-96c0-5e19c4b92ba7">
+          <AttributeID>HalfYears</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a273d014-31a8-410b-9dbf-f245e833b6a9">
+          <AttributeID>Months</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dba05646-03b9-45ce-b2a9-1e1bd594b16d">
+          <AttributeID>Weeks</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91ce777a-d873-4fa7-8f26-ff975323aab9">
+          <AttributeID>Days</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="629e46da-0d07-4c07-8dd1-7fb7d5c3a35c">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="799183ec-7338-4b4c-a678-98eac8450ab8">
+      <ID>Продажи За Период Оплата</ID>
+      <Name>Продажи За Период Оплата</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5b6185bc-9a6b-433e-ae66-a56c70629b66">
+          <ID>Количество Товары</ID>
+          <Name>Количество Товары</Name>
+          <Source dwd:design-time-name="fd709560-3d46-43a8-8f29-e92d86365f25">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7db467d4-7be9-4425-a59f-3a5bd1a500bf">
+              <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+              <ColumnID>КоличествоТовары</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="95798b82-d5b8-4e6b-832f-a8e03365d1c0">
+          <ID>К Оплате</ID>
+          <Name>К Оплате</Name>
+          <Source dwd:design-time-name="c81b2c31-3073-4677-8b79-546f7182f3a6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f2bc85b2-a56c-4ae3-b89f-471b2a39a738">
+              <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+              <ColumnID>КОплате</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="08965ad4-cec7-436d-9e30-818dea331def">
+          <ID>Оплачивается</ID>
+          <Name>Оплачивается</Name>
+          <Source dwd:design-time-name="e9fc5823-8fdc-4b15-970e-6445e42e3500">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="040be950-b200-407d-894a-1df4027a1ef6">
+              <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+              <ColumnID>Оплачивается</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="54c0229d-796e-4808-b362-611314cde470">
+          <ID>К Отгрузке</ID>
+          <Name>К Отгрузке</Name>
+          <Source dwd:design-time-name="7d9e396e-5c18-4fee-97ec-d50318313a2e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d934e053-602b-4b4e-bdf1-d65961ed7233">
+              <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+              <ColumnID>КОтгрузке</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="aeed3d72-c3e3-4642-a1f6-81f4b58c5c1b">
+          <ID>Отгружается</ID>
+          <Name>Отгружается</Name>
+          <Source dwd:design-time-name="6980e039-8433-4974-afd8-d0331d9f9e35">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1594470-2fc7-42ff-985f-b013f6db05ae">
+              <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+              <ColumnID>Отгружается</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="116f9128-a76e-4567-96b6-be4e4d352c36">
+          <CubeDimensionID>Продажи За Период Оплата</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="59d423c2-8376-478f-b549-8de46add64b5">
+              <AttributeID>Композитный Ключ</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c2b46bb2-c30d-4890-88cf-145dcf6ee696">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="49d63c0c-8432-41da-b5ea-5ccaf06e9844">
+                    <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+                    <ColumnID>КомпозитныйКлюч</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f8e63664-ef51-45b3-9304-364e3b928f75">
+          <CubeDimensionID>Время</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1a7b0de4-a7cc-4469-84a7-45070f17f353">
+              <AttributeID>Дата</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8d89a3cc-7522-4514-bb20-cb3f57fa6e4f">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c1f73735-7a5c-4be2-b2bf-b51c107078f0">
+                    <TableID>dbo_ПродажиЗаПериодОплата</TableID>
+                    <ColumnID>Дата</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="fe667ac3-fcf4-41b4-acc5-98747b7082ad">
+    <DataSourceViewID>ПродажиЗаПериодИОплаты</DataSourceViewID>
+  </Source>
+</Cube>

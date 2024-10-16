@@ -1,0 +1,153 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3746815f-c939-4407-a024-78fc24a1c814" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ПродажиЗаПериодИОплаты</ID>
+  <Name>ПродажиЗаПериодИОплаты</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12547" scrolltop="-4578" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31485" y="17780" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ПродажиЗаПериодОплата" left="0" top="-2434" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6350" height="13415" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000ce18000067340000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_ПродажиЗаПериодОплата" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-12547</DiagramViewPortLeft>
+            <DiagramViewPortTop>-4578</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Trade OLAP</DataSourceID>
+  <Schema>
+    <xs:schema id="ПродажиЗаПериодИОплаты" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="ПродажиЗаПериодИОплаты" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1883dd35-7fda-460d-a47a-8dc3055d0377">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_ПродажиЗаПериодОплата" msprop:design-time-name="2ccf3be7-66f4-45ac-bcb3-d44f182b679a" msprop:FriendlyName="ПродажиЗаПериодОплата" msprop:DbSchemaName="dbo" msprop:DbTableName="ПродажиЗаПериодОплата" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Дата" msdata:ReadOnly="true" msprop:design-time-name="46816849-5c20-4eac-a3cd-16d63330bae0" msprop:DbColumnName="Дата" msprop:FriendlyName="Дата" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ЗаказКлиентаНомер" msprop:design-time-name="e839cfea-51a5-4b0e-a264-0e0e759d5f1c" msprop:DbColumnName="ЗаказКлиентаНомер" msprop:FriendlyName="ЗаказКлиентаНомер">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ЗаказКлиентаСуммаДокумента" msprop:design-time-name="dc40148f-e6c2-43d3-b9b1-5c69665774b5" msprop:DbColumnName="ЗаказКлиентаСуммаДокумента" msprop:FriendlyName="ЗаказКлиентаСуммаДокумента" type="xs:decimal" />
+                  <xs:element name="Контрагент" msprop:design-time-name="edfb3210-71da-4fb8-97f0-44f89fd159e2" msprop:DbColumnName="Контрагент" msprop:FriendlyName="Контрагент">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ИНН" msdata:ReadOnly="true" msprop:design-time-name="647980e3-cd4f-4644-bcc5-ac7ff449df7f" msprop:DbColumnName="ИНН" msprop:FriendlyName="ИНН" type="xs:string" minOccurs="0" />
+                  <xs:element name="Номенклатура" msprop:design-time-name="b3042f73-3c15-4e38-8589-a881d86d1621" msprop:DbColumnName="Номенклатура" msprop:FriendlyName="Номенклатура">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Артикул" msdata:ReadOnly="true" msprop:design-time-name="2db4117b-dbd0-4226-9f45-5890d5dbfb3f" msprop:DbColumnName="Артикул" msprop:FriendlyName="Артикул" type="xs:string" minOccurs="0" />
+                  <xs:element name="КоличествоУпаковокТовары" msprop:design-time-name="480380a0-693c-42f5-baa9-bc6f1081f633" msprop:DbColumnName="КоличествоУпаковокТовары" msprop:FriendlyName="КоличествоУпаковокТовары" type="xs:decimal" />
+                  <xs:element name="КоличествоТовары" msprop:design-time-name="cc07d5cb-b88d-415e-8385-ae62b91225f3" msprop:DbColumnName="КоличествоТовары" msprop:FriendlyName="КоличествоТовары" type="xs:decimal" />
+                  <xs:element name="ЦенаТовары" msprop:design-time-name="b1ff8a46-ea12-4b03-b267-5d31b8174754" msprop:DbColumnName="ЦенаТовары" msprop:FriendlyName="ЦенаТовары" type="xs:decimal" />
+                  <xs:element name="СуммаТовары" msprop:design-time-name="3a6ace28-dc9f-4d9e-8e96-5b939b8b5816" msprop:DbColumnName="СуммаТовары" msprop:FriendlyName="СуммаТовары" type="xs:decimal" />
+                  <xs:element name="СуммаНДСТовары" msprop:design-time-name="3cb7dcc5-1ead-4516-bdf3-272ef053f865" msprop:DbColumnName="СуммаНДСТовары" msprop:FriendlyName="СуммаНДСТовары" type="xs:decimal" />
+                  <xs:element name="СуммаСНДСТовары" msprop:design-time-name="046b785d-1744-4cb5-9f92-5a2daf04279c" msprop:DbColumnName="СуммаСНДСТовары" msprop:FriendlyName="СуммаСНДСТовары" type="xs:decimal" />
+                  <xs:element name="СуммаРучнойСкидкиТовары" msprop:design-time-name="6cc80ba3-6f9b-46f0-82ba-afdd0ecd02bd" msprop:DbColumnName="СуммаРучнойСкидкиТовары" msprop:FriendlyName="СуммаРучнойСкидкиТовары" type="xs:decimal" />
+                  <xs:element name="СуммаАвтоматическойСкидкиТовары" msprop:design-time-name="b2bb76a2-c134-4106-94f3-6e98e8849752" msprop:DbColumnName="СуммаАвтоматическойСкидкиТовары" msprop:FriendlyName="СуммаАвтоматическойСкидкиТовары" type="xs:decimal" />
+                  <xs:element name="Содержание" msdata:ReadOnly="true" msprop:design-time-name="28279360-50f1-4183-8132-547cbfbe4952" msprop:DbColumnName="Содержание" msprop:FriendlyName="Содержание" type="xs:string" minOccurs="0" />
+                  <xs:element name="Сумма" msdata:ReadOnly="true" msprop:design-time-name="77462367-1e12-418f-9d8e-6d5bffc4e845" msprop:DbColumnName="Сумма" msprop:FriendlyName="Сумма" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="КОплате" msdata:ReadOnly="true" msprop:design-time-name="0217da64-2d73-4cde-8d28-bfbfed31eaea" msprop:DbColumnName="КОплате" msprop:FriendlyName="КОплате" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Оплачивается" msdata:ReadOnly="true" msprop:design-time-name="2473cc34-28ff-492c-8cf1-745c33c1ce99" msprop:DbColumnName="Оплачивается" msprop:FriendlyName="Оплачивается" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="КОтгрузке" msdata:ReadOnly="true" msprop:design-time-name="9955509a-743b-4a5b-ba07-c9f3e32d3f38" msprop:DbColumnName="КОтгрузке" msprop:FriendlyName="КОтгрузке" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Отгружается" msdata:ReadOnly="true" msprop:design-time-name="35801e3f-eb7c-4955-8891-502ff63b2950" msprop:DbColumnName="Отгружается" msprop:FriendlyName="Отгружается" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ДатаЗаказа" msdata:ReadOnly="true" msprop:design-time-name="7e38b058-a095-4c95-813b-404f74e12e46" msprop:DbColumnName="ДатаЗаказа" msprop:FriendlyName="ДатаЗаказа" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="КомпозитныйКлюч" msdata:ReadOnly="true" msprop:design-time-name="9f48229a-94b7-4f28-825d-c3fa6156369a" msprop:DbColumnName="КомпозитныйКлюч" msprop:FriendlyName="КомпозитныйКлюч" type="xs:string" />
+                  <xs:element name="Производитель" msdata:ReadOnly="true" msprop:design-time-name="5a7685b5-5f1f-4788-aebc-0475e3f26cb8" msprop:DbColumnName="Производитель" msprop:FriendlyName="Производитель">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_ПродажиЗаПериодОплата" />
+          <xs:field xpath="КомпозитныйКлюч" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <ПродажиЗаПериодИОплаты xmlns="" />
+  </Schema>
+</DataSourceView>

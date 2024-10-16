@@ -17,6 +17,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>ПродажиЗаПериодИОплаты.cube</Name>
+      <FullPath>ПродажиЗаПериодИОплаты.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ПродажиЗаПериодИОплаты.partitions</Name>
+          <FullPath>ПродажиЗаПериодИОплаты.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -26,6 +36,10 @@
     <ProjectItem>
       <Name>Время.dim</Name>
       <FullPath>Время.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Продажи За Период Оплата.dim</Name>
+      <FullPath>Продажи За Период Оплата.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -39,7 +53,17 @@
       <Name>ОстаткиИДоступностьТоваровПоСкладам.dsv</Name>
       <FullPath>ОстаткиИДоступностьТоваровПоСкладам.dsv</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>ПродажиЗаПериодИОплаты.dsv</Name>
+      <FullPath>ПродажиЗаПериодИОплаты.dsv</FullPath>
+    </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Role.role</Name>
+      <FullPath>Role.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>

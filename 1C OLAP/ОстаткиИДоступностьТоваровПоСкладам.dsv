@@ -31,7 +31,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15829" scrolltop="-9009" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31485" y="17780" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15829" scrolltop="-9009" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31485" y="17780" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -42,7 +42,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ОстаткиИДоступностьТоваровПоСкладамИтоговый" left="-1111" top="-5556" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3757" height="8572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ОстаткиИДоступностьТоваровПоСкладамИтоговый" left="0" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3757" height="8572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c0000ad0e00007c210000" />
                   </control>
@@ -118,7 +118,7 @@
                   <xs:element name="Новинка" msdata:ReadOnly="true" msprop:design-time-name="569cd120-ca6e-4ced-b3ed-2a4760bf2ab0" msprop:DbColumnName="Новинка" msprop:FriendlyName="Новинка" type="xs:boolean" />
                   <xs:element name="Коллекция" msdata:ReadOnly="true" msprop:design-time-name="b496a4ef-b0ec-4cd2-b317-394ba8f323c4" msprop:DbColumnName="Коллекция" msprop:FriendlyName="Коллекция" type="xs:string" />
                   <xs:element name="КомпозитныйКлюч" msdata:ReadOnly="true" msprop:design-time-name="9e8f6073-8056-47dc-84e6-a56c9b5fcafc" msprop:DbColumnName="КомпозитныйКлюч" msprop:FriendlyName="КомпозитныйКлюч" type="xs:string" />
-                  <xs:element name="СнятоСПроизводства" msprop:design-time-name="23bb5e6c-88c1-47f9-a4ce-aa69f0d918c9" msprop:DbColumnName="СнятоСПроизводства" msprop:FriendlyName="Снято с производства" type="xs:string" minOccurs="0" />
+                  <xs:element name="СнятоСПроизводства" msprop:design-time-name="23bb5e6c-88c1-47f9-a4ce-aa69f0d918c9" msprop:DbColumnName="СнятоСПроизводства" msprop:FriendlyName="Снято с производства" type="xs:boolean" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>

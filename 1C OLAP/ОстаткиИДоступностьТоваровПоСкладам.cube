@@ -114,9 +114,52 @@
         <Attribute dwd:design-time-name="a666fa1c-47ca-473a-a647-265e16fa6630">
           <AttributeID>Дата</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="5e85dbf3-688e-44d0-a034-9c0f5d3ecbf7">
+          <AttributeID>TenDays</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="85f3b29c-8869-4d1b-9b2f-1ba9a3dab200">
+          <AttributeID>Years</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1f5a1a8-7932-4ab6-b051-f3bce180dbf3">
+          <AttributeID>HalfYears</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ddb0f7d2-8722-4150-8290-4f2960965cc7">
+          <AttributeID>Months</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7be04371-cc8e-403c-a5e5-6d08d7456f5a">
+          <AttributeID>Weeks</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="445fd6aa-baa3-4bba-ad0b-106bbfd346de">
+          <AttributeID>Days</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="38dcce63-69f9-449b-9bd4-1b32b7c472a0">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+      <CellPermissions>
+        <CellPermission dwd:design-time-name="d02a9106-db37-47f7-88f3-8c06308571cf">
+          <Access>Read</Access>
+          <Expression></Expression>
+        </CellPermission>
+        <CellPermission dwd:design-time-name="10e274d0-45ca-471e-9659-c9187a9d6357">
+          <Access>ReadContingent</Access>
+          <Expression></Expression>
+        </CellPermission>
+        <CellPermission dwd:design-time-name="7334d486-fcc1-438f-bb25-434a8bf90786">
+          <Access>ReadWrite</Access>
+          <Expression></Expression>
+        </CellPermission>
+      </CellPermissions>
+    </CubePermission>
+  </CubePermissions>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="5b2390a5-ccd9-4494-996a-9dfffc4bdf88">
       <ID>Остатки И Доступность Товаров По Складам Итоговый</ID>

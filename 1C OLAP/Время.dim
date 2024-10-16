@@ -39,6 +39,21 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="62">
+            <Shape Id="Дата" Expanded="true">
+              <Attributes>
+                <Attribute Id="Дата" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -63,6 +78,116 @@
       <NameColumn dwd:design-time-name="e1e846c4-49f8-4a20-beee-f39feab5a159">
         <DataType>WChar</DataType>
       </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6cc9218e-d0ca-4c3b-a632-b199f093670b">
+          <AttributeID>TenDays</AttributeID>
+          <Name>TenDays</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3eac7ac3-5375-49ef-b34a-1f018100c6f1">
+          <AttributeID>Years</AttributeID>
+          <Name>Years</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="22308297-08fe-4bdd-93b6-ba4fa45b5b1b">
+          <AttributeID>HalfYears</AttributeID>
+          <Name>HalfYears</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="20a5bf1c-e2f3-4c3e-b8f7-e1b34b5c0d67">
+          <AttributeID>Months</AttributeID>
+          <Name>Months</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0827333e-ad3e-4e6f-ad07-c26348266b6c">
+          <AttributeID>Weeks</AttributeID>
+          <Name>Weeks</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ae527409-2de9-4392-a997-dccd9b649992">
+          <AttributeID>Days</AttributeID>
+          <Name>Days</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2b0716f-7d24-4fbd-9320-be497811ff95">
+      <ID>TenDays</ID>
+      <Name>TenDays</Name>
+      <Type>TenDays</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba5639d5-9307-4bd1-b223-e11f082946af">
+          <DataType>Date</DataType>
+          <Source xsi:type="TimeAttributeBinding" dwd:design-time-name="8f1daa18-c33c-4303-bcc0-af3c4e0905a5" />
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7729ac81-d1e0-44db-af44-6ca981fb643c">
+      <ID>Years</ID>
+      <Name>Years</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b13b6c5e-7770-4a1c-94ba-87874a8c952d">
+          <DataType>Date</DataType>
+          <Source xsi:type="TimeAttributeBinding" dwd:design-time-name="0c1175f0-45d7-450a-bd9e-5e690b1bdca2" />
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e88079e4-646a-478f-9f2a-68643b3c2f0d">
+      <ID>HalfYears</ID>
+      <Name>HalfYears</Name>
+      <Type>HalfYears</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a44e22c-23d5-4a01-8031-91e5a33a2c1f">
+          <DataType>Date</DataType>
+          <Source xsi:type="TimeAttributeBinding" dwd:design-time-name="9060f25c-4d37-4959-96a0-f975f350dfd3" />
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1598d4de-25c6-4672-91ff-ea8a16abc947">
+      <ID>Months</ID>
+      <Name>Months</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6112b9ae-dfbc-4077-b2f3-59fe1736a150">
+          <DataType>Date</DataType>
+          <Source xsi:type="TimeAttributeBinding" dwd:design-time-name="c6f6ef44-7cb5-46df-a918-cec8349ae172" />
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b2fa8d2c-7704-455f-9af2-3f101e469183">
+      <ID>Weeks</ID>
+      <Name>Weeks</Name>
+      <Type>Weeks</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6136ce21-d225-49e0-94a0-995b474f6575">
+          <DataType>Date</DataType>
+          <Source xsi:type="TimeAttributeBinding" dwd:design-time-name="b8a7152a-0d93-43c8-bf46-66056fc2c332" />
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8f6b93dc-ddde-445b-bd38-9104e487bc8f">
+      <ID>Days</ID>
+      <Name>Days</Name>
+      <Type>Days</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6cd474f6-8644-4a11-ac4f-822e25407ad0">
+          <DataType>Date</DataType>
+          <Source xsi:type="TimeAttributeBinding" dwd:design-time-name="77ecc5d2-7e6d-4d9f-bbdc-f8aa0be5c2de" />
+        </KeyColumn>
+      </KeyColumns>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
