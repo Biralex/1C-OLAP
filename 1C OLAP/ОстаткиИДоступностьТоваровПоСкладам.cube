@@ -104,6 +104,12 @@
         <Attribute dwd:design-time-name="029ac461-a2ad-415a-9f26-a2086f5240dd">
           <AttributeID>Снято С Производства</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="082c81c5-748b-438b-b815-c76223b76bb2">
+          <AttributeID>Расход Ткани  Основная</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbf3aca1-6f5d-406d-9e5f-bb91e4d38fea">
+          <AttributeID>Расход Ткани  Кант</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="b57257da-443d-47c8-bf0d-d01c6dc5bf50">
